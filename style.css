@@ -1,0 +1,153 @@
+.container .container-header {
+    background: rgb(16, 10, 56);
+    padding: 5px 0;
+}
+
+.container .container-box{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container .container-header .container-box .container-menu{
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+
+.container .container-header .container-box .container-menu .container-list-options {
+	text-transform: uppercase;
+	color: #f7f2f2;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+    display: flex;
+ }
+
+.container .container-header .container-box .container-menu .container-list-options .container-option{
+    margin: 0 10px;
+}
+
+.emphasis{
+    background: rgb(145, 180, 55); 
+}
+
+.emphasis .emphasis-photo {
+    padding: 175px 0;
+    text-align: center;
+    text-transform: uppercase;
+	color: #f7f2f2;
+	font-weight: lighter;
+	font-size: 30px;
+	text-decoration: none;  
+}
+
+.emphasis-text {
+    background: rgb(220, 220, 220);
+	text-align: center;
+    padding: 10px 0;
+}
+
+.list-menu{
+    width: 900px;
+	margin:  auto;
+	padding: 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-text{
+    background: rgb(209, 205, 205);
+    padding: 40px 0; 
+}
+
+.first-text .title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.first-text .details-text{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.gallery{
+    padding: 50px 0;
+}
+
+.gallery .gallery-title{
+    text-align: center;
+    font-size: 40px;
+    padding: 60px 0;
+}
+
+.gallery .gallery-list-photo {
+    display: flex;
+    padding: 40px 15px;
+    font-size: 30px;
+    justify-content: space-between;
+
+}
+
+.card {
+    border:0px solid #000000;
+    padding: 50px 55px;
+    text-align: center;
+    margin: auto;
+    color: #f7f2f2;
+
+}
+
+.card-green{
+    background: green;
+}
+
+.card-orange{
+    background:orange;
+}
+
+.card-red{
+    background:red;
+}
+
+.card-blue{
+    background:blue;
+}
+
+.second-text{
+    background: rgb(209, 205, 205);
+    padding: 40px 0;
+}
+
+.second-text .title2{
+    text-align: center;
+    font-size: 40px; 
+}
+
+.second-text .text-details-second{
+    text-align: center;
+    padding: 10px 0;
+}
+ 
+.footer{
+    width: 900px;
+	margin:  auto;
+	padding: 40px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: lighter;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+ }
+
+.footer .discription{
+     color: green;
+     font-size: 10px;
+ }          
